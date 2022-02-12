@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@500&family=Lobster&family=Montserrat:ital,wght@1,300&family=Orbitron&family=Poiret+One&family=Press+Start+2P&family=Russo+One&family=Special+Elite&family=Yellowtail&display=swap');
+
+header{
+    background:  url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: rgb(94, 255, 0) solid 2px;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: rgba(80, 80, 80, 0.62);
+    height: 650px;
+}
+
+.header__inner{
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: rgba(33, 194, 1, 0.62) solid 1px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo{
+    width: 90px;
+    height: 85px;
+    border-radius: 100%;
+    border: solid rgb(94, 255, 0) 5px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.62), white);
+    text-align: center;
+    padding-top: 0.5%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.logo_part_1{
+    text-shadow: rgb(94, 255, 0) 2px 2px;
+    font-family: 'Bangers', cursive;
+}
+
+.logo_part_2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin: -5px 0 0px -33px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.menu>ul{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 0 0;
+}
+
+.menu>ul>li{
+    display: inline-block;
+    font-family: 'Press Start 2P';  
+    border-right: rgb(30, 255, 0) solid 3px;
+    padding-right: 30px;
+}
+
+.menu>ul>li+li{
+    margin-left: 30px;
+}
+
+.menu>ul>li+li+li+li{
+    border-right: none;
+    padding-right: none;
+}
+
+.menu>ul>li>a{
+    margin: 0 auto;
+    color: rgb(51, 255, 0);
+}
+
+.nav_link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 0 0 24px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    opacity: 0.75;
+}
+
+.nav_link:hover {
+    color: rgb(255, 255, 255);
+    transition: opacity .1s linear;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.tagline{
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.tagline_welcome{
+    text-align: center;
+    text-decoration: none;
+    font-size: 400%;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster';
+    text-shadow: 5px 5px 10px rgb(153, 0, 255);
+}
+
+.hello_User{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#unknown_User{
+    font-family: 'Poiret One';
+    text-decoration: none;
+}
+
+#userName{ 
+    text-align: center;
+    text-decoration: none;
+}
+
+.description{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#description{
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    font-family: 'Special Elite', cursive;
+    margin: 0 auto;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgb(255, 255, 255);
+    border: rgb(30, 255, 0) solid 3px;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+}
+
+#btn{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.btn:hover{
+    background: rgb(231, 0, 252);
+    border: rgb(255, 255, 255) solid 3px;
+    color: rgb(255, 255, 255);
+}
+
+.Info_headlines{
+    width: 100%;
+    text-align: center;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#Info_headlines{
+    font-family: 'Russo One', sans-serif;
+}
+
+.arrow_headlines{
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid rgba(161, 161, 161, 0.62);
+    border-right: 2px solid rgba(201, 201, 201, 0.62);
+    margin: 0 auto;
+    transform: rotate(-45deg);
+}
+
+.About_user{
+    width: max-content;
+    margin: 0 auto;
+    color: rgba(201, 201, 201, 0.62);
+    font-family: 'Comfortaa', cursive;
+}
+
+.Resume{
+    display: flex;
+    justify-content: center;
+}
+
+#resume_list>li{
+    display: inline-block;
+    list-style: none;
+}
+
+.My_Photo {
+    display: block;
+    height: 200px;
+    width: 220px;
+    margin-top: 30px;
+}
+
+.My_Photo a{
+    display: block;
+    height: 200px;
+    width: 220px;
+    background: url(../images/Фото.png) ;
+    background-position: 0 -10px;
+    box-shadow: 1px 1px 1px 1px #d0d0d0;
+}
+
+.My_Photo a:hover{
+    background-position: 0 -230px;
+}
+
+.for_arrow{
+    height: 260px;
+}
+
+.About_photo{
+ font-family: 'Montserrat', sans-serif;
+ color: rgba(155, 155, 155, 0.62);
+}
+
+.arrow{
+    width: 30px;
+    height: 30px;
+    border-top: 2px solid rgba(161, 161, 161, 0.62);
+    border-right: 2px solid rgba(201, 201, 201, 0.62);
+    margin: 0 auto;
+    margin-top: 15px;
+    transform: rotate(-45deg);
+}
+
+.My_description{
+    vertical-align: top;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 50px; 
+}
+
+.About_me{
+    width: max-content;
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+    float: left;
+}
+
+.About_me>li+li{
+    padding-top: 15px;
+}
+
+.About_me>li+li+li+li{
+    padding-bottom: 40px;
+    border-bottom: rgba(131, 130, 130, 0.62) solid 1px;
+}
+
+.About_me>li+li+li+li+li{
+    padding-bottom: 10px;
+    width: 497px;
+    border-bottom: none;
+}
+
+.my_work{
+    max-width: 1170px;
+    margin: 0 auto;
+    border-top: solid rgba(131, 130, 130, 0.62) 1px;
+    background: url(../images/list_sites.png) no-repeat;
+    border-bottom: solid rgba(131, 130, 130, 0.62) 1px;
+    padding-bottom: 150px;
+    background-size: 1200px 400px;
+    background-position: 0 27px;
+}
+
+.headlines_my_sites{
+    display: flex;
+    font-family: 'Lobster';
+    justify-content: center;
+    border-radius: 100px;
+    width: 130px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.sites_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    list-style: none;
+}
+
+.my_first_site{
+    border: none;
+    background: url(../images/sprite.jpg) no-repeat;
+    background-position: 0 -3px;
+    width: 390px;
+    height: 180px;
+}
+
+.my_second_site{
+    background: url(../images/sprite.jpg) no-repeat;
+    background-position: 0 -600px;
+    width: 390px;
+    height: 180px;
+}
+
+.my_third_site{
+    background: url(../images/sprite.jpg) no-repeat;
+    background-position: 0px -299px;
+    width: 390px;
+    height: 180px;
+}
+
+.my_first_site:hover .About_sites{
+    display: block;
+}
+
+.my_second_site:hover .About_sites{
+    display: block;
+}
+
+.my_third_site:hover .About_sites{
+    display: block;
+}
+
+.About_sites{
+    display: none;
+    background: rgba(51, 51, 51, 0.62);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.About_sites>p{
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+
+.to_site{
+    font-size: 20px;
+    color: rgb(72, 255, 0);
+
+}
+
+.Git{
+    color: rgb(72, 255, 0);
+}
+
+.GitHub{
+    margin: 0 auto;
+}
+
+.Git_my_sites{
+    display: flex;
+    font-family: 'Orbitron', sans-serif;
+    justify-content: center;
+    border-radius: 100px;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.git_links{
+    color: rgb(72, 255, 0);
+}
+
+.git_list{
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    width: max-content;
+}
+
+.git_list>li{
+    width: max-content;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:450px) {
+    .tagline{
+        display: none;
+    }
+
+    header{
+        height: 450px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .container{
+        height: 450px;
+    }
+    
+    .arrow_headlines{
+        display: none;
+    }
+
+    .About_me{
+        width: 350px;
+        margin-left: -50px;
+    }
+
+    .About_me>li+li+li+li+li{
+        width: 350px;
+    }
+
+    .About_user{
+        display: none;
+    }
+
+    .Resume{
+        height: max-content;
+    }
+    
+    .sites_list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 1px;
+    }
+
+    #resume_list>li{
+        display: block;
+        list-style: none;
+        height: max-content;
+    }
+
+    .my_work{
+        background: none;
+        padding-bottom: 20px;
+    }
+
+
+}
+

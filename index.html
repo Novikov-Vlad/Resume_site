@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>NV_resume</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__inner">
+                <div class="Logo">
+                    <h1 class="logo_part_1">_NV_</h1>
+                    <span class="logo_part_2">resume</span>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a class="nav_link" href="#main">Главная</a></li>
+                        <li><a class="nav_link" href="#Info_headlines">Обо мне </a></li>
+                        <li><a class="nav_link" href="#my_sites">Мои сайты</a></li>
+                        <li><a class="nav_link" href="#git_id">Ссылки на GitHub</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tagline">
+                <h1 id="main" class="tagline_welcome">Приветствую уважаемый(-ая) <a class="hello_User" href="#"><p id="userName"><span id = 'unknown_User' onclick="getName()">пока неизвестный пользователь.</span></p></a></h1>
+            </div>
+            <div class="arrow_headlines">
+            </div>
+            <div class='About_user'>
+                <span>Нажми на строку чтобы представится</span>
+            </div>
+            <div class="description">
+                <span id="description"> Данный сайт написан в качестве резюме и его цель рассказать обо мне и моих навыках.</span>
+                <a id="btn" href="#Info_headlines"><p class="btn"> Узнать более</p></a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="Info_headlines">
+            <h1 id="Info_headlines">Мое досье</h1>
+        </div>
+        <div class="Resume">
+            <ul id="resume_list">
+                <li class="My_Photo">
+                    <div class="for_arrow">
+                        <a></a>
+                        <div class="arrow">
+                        </div>
+                        <span class='About_photo'>Наведись чтобы придать красок (на фото не я ^_^)</span>
+                    </div>
+                </li>  
+                <li class="My_description"> 
+                    <ul class="About_me">
+                        <li>ФИО: Новиков Владислав Владимирович</li>
+                        <li>Дата Рождение: 04.01.1999</li>
+                        <li>Телефон: +38(097)0128302</li>
+                        <li>Email: vlad44nv@gmail.com</li>
+                        <li> О себе: </li>
+                        <li><p>Закончил Харьковский национальный университет имени В. Н. Каразина про специальности прикладная физика и наноматериалы.</p> Параллельно учебе в университете проходил обучение на курсах верстки в UITschool. В данный момент прохожу курсы JavaScript в том же месте. Есть практический опыт верстки сайтов (среди них есть сайт написанный на Bootstrap), но не комерческие проэкты.</li>
+                    </ul>        
+                </li>  
+            </ul>   
+        </div>
+    </section>
+    <section class="my_work">
+        <div class="headlines_my_sites">
+            <h1 id="my_sites">Мои сайты</h1>
+        </div>
+            <ul class="sites_list">
+                <li class="my_first_site">
+                    <div class="About_sites">
+                        <p>Мой первый сайт</p>
+                        <a class="to_site"  href="http://study.uitschool.com/fe-21-02/novikov/First_site/">Перейти</a>                        
+                    </div>
+                </li>
+                <li class="my_second_site">
+                    <div class="About_sites">
+                        <p>Мой второй сайт</p>
+                        <a class="to_site" href="http://study.uitschool.com/fe-21-02/novikov/Royal/">Перейти</a>                        
+                    </div>
+                </li>
+                <li class="my_third_site">
+                    <div class="About_sites">
+                        <p>Мой третий сайт (Bootstrap)</p>
+                    <a class="to_site" href="http://study.uitschool.com/fe-21-02/novikov/STEAM/#">Перейти</a>                        
+                </div>
+            </li>
+        </ul> 
+    </section>
+    <section class="GitHub">
+        <div class="Git_my_sites">
+            <h1 id="git_id">
+                Ссылки на <span class="Git">Git</span>Hub
+            </h1>
+        </div>
+        <div class="git_list">
+            <ol> 
+                <li><a class="git_links" href = "https://github.com/Novikov-Vlad/First-Site">First-Site</a><span> - мой первый сайт;</span></li>
+                <li><a class="git_links" href = "https://github.com/Novikov-Vlad/Royal">Royal-Site</a><span> - сайт Royal;</span></li>
+                <li><a class="git_links" href="https://github.com/Novikov-Vlad/STEAM">STEAM-site</a><span> - сайт STEAM;</span></li>
+                <li><a class="git_links" href="https://github.com/Novikov-Vlad/Resume_site">NV_resume</a><span> - данный сайт;</span></li>
+            </ol>
+        </div>  
+    </section>
+    <script src="JS/index.js"></script>
+</body>
+</html>
